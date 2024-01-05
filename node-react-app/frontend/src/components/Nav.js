@@ -3,15 +3,14 @@ import { Link } from 'react-router-dom';
 
 function Nav() {
     return(
-    <nav className='navbar'>
-        <button className='navbar-toggler' type='button'>
+    <nav className='navbar navbar-light bg-light '>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navMainMenu" aria-controls="navMainMenu" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
         </button>
-        <div id="navMainMenu">
-            
+        <div id="navMainMenu" className='navbar-collapse collapse'>
             <div className='navbar-links'>
-                <Link to='/' className="nav-item">Homepage</Link>
-                <Link to='https://google.com' className="nav-item">Search</Link>
+                <Link to='/' className="nav-item nav-link active">Homepage</Link>
+                <Link to='https://google.com' className="nav-item nav-link">Search</Link>
             </div>
         </div>
     </nav>
