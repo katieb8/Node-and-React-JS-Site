@@ -9,8 +9,8 @@ function Nav() {
         </button>
         <div id="navMainMenu" className='navbar-collapse collapse'>
             <div className='navbar-links'>
-                <Link to='/Home' className="nav-item nav-link active">Homepage</Link>
-                <Link to='/Info' className="nav-item nav-link">Info</Link>
+                <Link to='Home' className="nav-item nav-link active">Homepage</Link>
+                <Link to='Info' className="nav-item nav-link">Info</Link>
                 <Link to='https://google.com' className="nav-item nav-link">Search</Link>
             </div>
         </div>
