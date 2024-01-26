@@ -9,5 +9,5 @@ app.use('/', routesHandler);
 
 const PORT = 4000;
 app.listen(PORT, () => {
-    console.log(`server is running on port ${PORT} for the backend`)
-})
+    console.log(`Server is running on port ${PORT} on the backend`);
+});

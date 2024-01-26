@@ -13,7 +13,7 @@ function App() {
         <Routes>
           <Route path="Home" element={< Home />} />
           <Route path="Info" element={< Info />} />
-          <Route path="Tweet" element={< Tweet />} />
+          <Route path="Tweets" element={< Tweet />} />
         </Routes>
       </div>
     </Router>
