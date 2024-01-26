@@ -12,6 +12,7 @@ function Nav() {
                 <Link to='Home' className="nav-item nav-link active">Homepage</Link>
                 <Link to='Info' className="nav-item nav-link">Info</Link>
                 <Link to='https://google.com' className="nav-item nav-link">Search</Link>
+                <Link to='Tweet' className="nav-item nav-link">Tweets</Link>
             </div>
         </div>
     </nav>
